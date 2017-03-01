@@ -1,0 +1,14 @@
+{
+  "name": "food-watson",
+  "version": "1.0.0",
+  "description": "Watson api integration for food search",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1"
+  }
+}
