@@ -11,6 +11,6 @@
   "dependencies": {
     "body-parser": "1.16.1",
     "express": "4.15.0",
-    "watson-developer-cloud": "^2.22.1"
+    "watson-developer-cloud": "2.22.1"
   }
 }
