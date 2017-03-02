@@ -56,18 +56,6 @@ var home = function (req,res) {
             res.json(response);
         }
     });
-
-    // natural_language_classifier.classify({
-    //         text: 'Is it sunny?',
-    //         classifier_id: '' },
-    //     function(err, response) {
-    //         if (err)
-    //             console.log('error:', err);
-    //         else
-    //             res.json(response);
-    //     });
-
-
 }
 
 module.exports = {
