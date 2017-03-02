@@ -17,7 +17,7 @@ var config = dev_config;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-//var routes = require('./config/routes')(app);
+var routes = require('./config/routes')(app);
 // START THE SERVER
 // =============================================================================
 var server = app.listen(config.port, function () {
