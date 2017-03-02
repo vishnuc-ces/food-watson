@@ -1,10 +1,13 @@
 'use strict'
 
+var home = require('./../controllers/HomeController');
+
 module.exports = function(app){
 
 	// API for Login
 	app.get('/test', function(req, res){
-		res.json("Sample Response from Controller");
+
+		home.sample(req,res);
 	});
 
 }
