@@ -11,6 +11,9 @@
   "dependencies": {
     "body-parser": "1.16.1",
     "express": "4.15.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^2.4.0",
+    "mongoose": "4.8.5",
     "q": "1.4.1",
     "watson-developer-cloud": "2.22.1"
   }

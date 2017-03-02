@@ -4,7 +4,11 @@ var CategorySchema = mongoose.Schema({
     'name' : {
         type : String,
         required : true
+    },
+    'zomatoId' : {
+        type : Number,
+        required : true
     }
 });
 
-var User = module.exports = mongoose.model('Category', UserSchema);
+var Category = module.exports = mongoose.model('Category', CategorySchema);

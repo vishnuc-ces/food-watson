@@ -1,7 +1,7 @@
 var express = require('express');        // call express
 var app = express();                 // define our app using express
 var bodyParser = require('body-parser');
-
+var mongoose = require('mongoose');
 /* Configuaration Files
  * 1. development = dev_config
  * 2. production = prod_config

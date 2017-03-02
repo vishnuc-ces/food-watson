@@ -1,6 +1,7 @@
 'use strict'
 
 var home = require('./../controllers/HomeController');
+var zomato = require('./../controllers/ZomatoController')
 
 module.exports = function(app){
 
@@ -13,6 +14,11 @@ module.exports = function(app){
     app.get('/', function(req, res){
 
         home.home(req,res);
+    });
+
+    app.get('/zomatodatadump', function(req, res){
+
+        zomato.datapopulate(req,res);
     });
 
 }

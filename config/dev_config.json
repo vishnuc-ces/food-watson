@@ -10,6 +10,6 @@
   "mongo":{
     "server" : "mongodb://192.168.28.141",
     "post" : 27017,
-    "database":"feedback"
+    "database":"zomato"
   }
 }
