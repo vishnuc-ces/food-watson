@@ -10,4 +10,9 @@ module.exports = function(app){
 		home.sample(req,res);
 	});
 
+    app.get('/', function(req, res){
+
+        home.home(req,res);
+    });
+
 }
