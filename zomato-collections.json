@@ -1,0 +1,349 @@
+{
+  "collections": [
+    {
+      "collection": {
+        "collection_id": 1,
+        "res_count": 30,
+        "image_url": "https://b.zmtcdn.com/data/collections/e140962ec7eecbb851155fe0bb0cd28c_1463395649.jpg",
+        "url": "https://www.zomato.com/chennai/top-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Trending this week",
+        "description": "The most popular restaurants in town this week",
+        "share_url": "http://www.zoma.to/c-7/1"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 29,
+        "res_count": 33,
+        "image_url": "https://b.zmtcdn.com/data/collections/b8499c7a6b74ddf01497ac8afc86d2e2_1476701306.jpg",
+        "url": "https://www.zomato.com/chennai/best-new-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Newly opened",
+        "description": "The best new places in town",
+        "share_url": "http://www.zoma.to/c-7/29"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 225,
+        "res_count": 113,
+        "image_url": "https://b.zmtcdn.com/data/collections/3eeb8a5d63844348a56f85c8db028418_1443673408_l.jpg",
+        "url": "https://www.zomato.com/chennai/fine-dining-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Luxury dining",
+        "description": "The best restaurants in town for a complete fine-dining experience.",
+        "share_url": "http://www.zoma.to/c-7/225"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 339,
+        "res_count": 15,
+        "image_url": "https://b.zmtcdn.com/data/collections/8c42959a434bd9cabf283ac56872c996_1463635734.jpg",
+        "url": "https://www.zomato.com/chennai/happy-hours?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Happy hours",
+        "description": "Great deals on booze. Happy hours indeed",
+        "share_url": "http://www.zoma.to/c-7/339"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 6,
+        "res_count": 25,
+        "image_url": "https://b.zmtcdn.com/data/collections/1fa3acc57ad83023e1f50170b1b7fc08_1431429354_l.jpg",
+        "url": "https://www.zomato.com/chennai/late-night-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Late night restaurants",
+        "description": "Because hunger can strike at the strangest times.",
+        "share_url": "http://www.zoma.to/c-7/6"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 130,
+        "res_count": 39,
+        "image_url": "https://b.zmtcdn.com/data/collections/982022dab9f94f927a997226fa23d414_1425298114_l.jpg",
+        "url": "https://www.zomato.com/chennai/all-day-dining?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "All-day dining",
+        "description": "Breakfast, lunch and dinner all under one roof",
+        "share_url": "http://www.zoma.to/c-7/130"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 202375,
+        "res_count": 12,
+        "image_url": "https://b.zmtcdn.com/data/collections/3de606c4e8cfd8e275936c50ae1ba7f3_1480314164.jpg",
+        "url": "https://www.zomato.com/chennai/icici-bank-culinary-treats?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "ICICI Bank Culinary Treats",
+        "description": "Now find your favorite restaurants with offers on ICICI Bank cards",
+        "share_url": "http://www.zoma.to/c-7/202375"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 114828,
+        "res_count": 15,
+        "image_url": "https://b.zmtcdn.com/data/collections/df2e0778e7eae55d87d6983211a711c2_1463548731.jpg",
+        "url": "https://www.zomato.com/chennai/weekend-getaway-spots?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Weekend getaway spots",
+        "description": "Escape the hustle and bustle of the city",
+        "share_url": "http://www.zoma.to/c-7/114828"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 58,
+        "res_count": 32,
+        "image_url": "https://b.zmtcdn.com/data/collections/8293079b406af27a094dd4cdc41a2fb7_1418390791_l.jpg",
+        "url": "https://www.zomato.com/chennai/asian-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Pan-Asian delicacies",
+        "description": "The best places for Asian fare",
+        "share_url": "http://www.zoma.to/c-7/58"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 337,
+        "res_count": 22,
+        "image_url": "https://b.zmtcdn.com/data/collections/a54eb9a04d0075407f3172f4712c9c03_1421668945_l.jpg",
+        "url": "https://www.zomato.com/chennai/punjabi-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Flavours of the North",
+        "description": "Butter chicken, naan and lassi. And so much more",
+        "share_url": "http://www.zoma.to/c-7/337"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 10,
+        "res_count": 20,
+        "image_url": "https://b.zmtcdn.com/data/collections/5c2e9b211faf9bf8f459f2f7a371c769_1460367386.jpg",
+        "url": "https://www.zomato.com/chennai/regional-food?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Regional favorites",
+        "description": "Diverse flavors from a variety of regions",
+        "share_url": "http://www.zoma.to/c-7/10"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 3,
+        "res_count": 17,
+        "image_url": "https://b.zmtcdn.com/data/collections/8c2611e9f177b47ba905367af063b6f7_1463726322.jpg",
+        "url": "https://www.zomato.com/chennai/romantic-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Romantic",
+        "description": "The perfect spots for a romantic meal",
+        "share_url": "http://www.zoma.to/c-7/3"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 75,
+        "res_count": 20,
+        "image_url": "https://b.zmtcdn.com/data/collections/f9d822284b336c1eb8c3af8c42216389_1460023238.jpg",
+        "url": "https://www.zomato.com/chennai/best-bars-and-pubs?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Best bars &amp; pubs",
+        "description": "The top places to enjoy a drink",
+        "share_url": "http://www.zoma.to/c-7/75"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 344,
+        "res_count": 13,
+        "image_url": "https://b.zmtcdn.com/data/collections/273612e3880fa4790562ee39cf48be8b_1445579359_l.jpg",
+        "url": "https://www.zomato.com/chennai/delivery-only-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Just delivery",
+        "description": "Get your grub right at your doorstep",
+        "share_url": "http://www.zoma.to/c-7/344"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 19,
+        "res_count": 51,
+        "image_url": "https://b.zmtcdn.com/data/collections/7dcd65d161813057e74cfaf2903c28fe_1444656532_l.jpg",
+        "url": "https://www.zomato.com/chennai/vegetarian-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Veggie friendly",
+        "description": "Restaurants serving the best vegetarian fare",
+        "share_url": "http://www.zoma.to/c-7/19"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 13,
+        "res_count": 10,
+        "image_url": "https://b.zmtcdn.com/data/collections/54fdeccf0c51141023dd0d58356aec2a_1467631167.jpg",
+        "url": "https://www.zomato.com/chennai/rooftop-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Rooftops",
+        "description": "Dine like you're on top of the world",
+        "share_url": "http://www.zoma.to/c-7/13"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 51,
+        "res_count": 26,
+        "image_url": "https://b.zmtcdn.com/data/collections/81dc179878a8d9e8b2ab03e4eaeab0df_1459434256.jpg",
+        "url": "https://www.zomato.com/chennai/biryani?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Brilliant biryanis",
+        "description": "Hyderabadi, Kolkata, Lucknawi...the choice is yours",
+        "share_url": "http://www.zoma.to/c-7/51"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 40,
+        "res_count": 63,
+        "image_url": "https://b.zmtcdn.com/data/collections/2351d53897466eeb5faed7026c0a2796_1430224886_l.jpg",
+        "url": "https://www.zomato.com/chennai/dessert-places?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Sweet tooth",
+        "description": "Life is short so eat dessert first!",
+        "share_url": "http://www.zoma.to/c-7/40"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 12,
+        "res_count": 29,
+        "image_url": "https://b.zmtcdn.com/data/collections/3ad9a189e2aa8e44650ba9dd6af82307_1423748769_l.jpg",
+        "url": "https://www.zomato.com/chennai/cheap-eats?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Pocket friendly",
+        "description": "Your top options when dining on a budget",
+        "share_url": "http://www.zoma.to/c-7/12"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 7,
+        "res_count": 32,
+        "image_url": "https://b.zmtcdn.com/data/collections/0a765bdc61f3054f4e97f406e561b63f_1418391127_l.jpg",
+        "url": "https://www.zomato.com/chennai/legendary-places?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Legendary outlets",
+        "description": "They say old is gold and here's the proof",
+        "share_url": "http://www.zoma.to/c-7/7"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 2,
+        "res_count": 14,
+        "image_url": "https://b.zmtcdn.com/data/collections/213094197d171cb9ca214724fcb63abe_1455262413.jpg",
+        "url": "https://www.zomato.com/chennai/sunday-brunch?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Sunday brunches",
+        "description": "Just about the perfect way to end the week",
+        "share_url": "http://www.zoma.to/c-7/2"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 381,
+        "res_count": 33,
+        "image_url": "https://b.zmtcdn.com/data/collections/fdf3b83f9c12e6cab3f3773a3c157a9f_1423238200_l.jpg",
+        "url": "https://www.zomato.com/chennai/corporate-dining?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Corporate dining",
+        "description": "The best places to wow your business associates",
+        "share_url": "http://www.zoma.to/c-7/381"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 413,
+        "res_count": 20,
+        "image_url": "https://b.zmtcdn.com/data/collections/fb1a0edf9843e7a9145d44d0edaf553a_1425894211_l.jpg",
+        "url": "https://www.zomato.com/chennai/themed-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Themed restaurants",
+        "description": "These places serve up dinner and a whole lot more",
+        "share_url": "http://www.zoma.to/c-7/413"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 331,
+        "res_count": 18,
+        "image_url": "https://b.zmtcdn.com/data/collections/dbb83e0eaec19bf21898eb66506ddbec_1425304055_l.jpg",
+        "url": "https://www.zomato.com/chennai/best-thali?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Terrific thalis",
+        "description": "All you can eat, Indian style!",
+        "share_url": "http://www.zoma.to/c-7/331"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 11,
+        "res_count": 31,
+        "image_url": "https://b.zmtcdn.com/data/collections/fc6940a4b977921eeefe2101f0b0c253_1428300428_l.jpg",
+        "url": "https://www.zomato.com/chennai/street-food?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Street food",
+        "description": "Delectable bites for when you're on-the-go",
+        "share_url": "http://www.zoma.to/c-7/11"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 5,
+        "res_count": 16,
+        "image_url": "https://b.zmtcdn.com/data/collections/e566832632d10b1e50c954cb951edd11_1432274741_l.jpg",
+        "url": "https://www.zomato.com/chennai/best-burger?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Kickass burgers",
+        "description": "The cheesiest, healthiest, or meatiest - your pick",
+        "share_url": "http://www.zoma.to/c-7/5"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 20,
+        "res_count": 35,
+        "image_url": "https://b.zmtcdn.com/data/collections/a7ddff4ee0a77e2b32823c2ce5551579_1460030505.jpg",
+        "url": "https://www.zomato.com/chennai/great-breakfast?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Great breakfasts",
+        "description": "The most delicious places to begin your day",
+        "share_url": "http://www.zoma.to/c-7/20"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 14,
+        "res_count": 11,
+        "image_url": "https://b.zmtcdn.com/data/collections/0fecfe2b205a9dd7da273f6841115eef_1454036759.jpg",
+        "url": "https://www.zomato.com/chennai/sea-view-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Sea view",
+        "description": "Amazing food, amazing views. How's that for win-win?",
+        "share_url": "http://www.zoma.to/c-7/14"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 17,
+        "res_count": 11,
+        "image_url": "https://b.zmtcdn.com/data/collections/b2a9346ab0f03785350b96d983841902_1463635759.jpg",
+        "url": "https://www.zomato.com/chennai/shisha?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Sheesha lounges",
+        "description": "Enjoy a great selection of sheesha",
+        "share_url": "http://www.zoma.to/c-7/17"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 175,
+        "res_count": 25,
+        "image_url": "https://b.zmtcdn.com/data/collections/c7a1bf97699dd1d754c65d8c167e7a4b_1418389553_l.jpg",
+        "url": "https://www.zomato.com/chennai/barbecue-grill?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Kebabs, BBQ &amp; grills",
+        "description": "Ribs, brisket, steak - find the lot here",
+        "share_url": "http://www.zoma.to/c-7/175"
+      }
+    },
+    {
+      "collection": {
+        "collection_id": 138,
+        "res_count": 13,
+        "image_url": "https://b.zmtcdn.com/data/collections/56f06e1d41b7c651635dd99ad4d73f83_1488203193.jpg",
+        "url": "https://www.zomato.com/chennai/best-shawarmas?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "title": "Best Shawarmas",
+        "description": "Where to find the best Shawarmas in the city.",
+        "share_url": "http://www.zoma.to/c-7/138"
+      }
+    }
+  ],
+  "has_more": 0,
+  "share_url": "http://www.zoma.to/c-7",
+  "display_text": "OR EXPLORE OUR COLLECTIONS",
+  "has_total": 0
+}

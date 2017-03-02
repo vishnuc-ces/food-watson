@@ -1,0 +1,112 @@
+{
+  "establishments": [
+    {
+      "establishment": {
+        "id": 21,
+        "name": "Quick Bites"
+      }
+    },
+    {
+      "establishment": {
+        "id": 23,
+        "name": "Dessert Parlour"
+      }
+    },
+    {
+      "establishment": {
+        "id": 16,
+        "name": "Casual Dining"
+      }
+    },
+    {
+      "establishment": {
+        "id": 31,
+        "name": "Bakery"
+      }
+    },
+    {
+      "establishment": {
+        "id": 1,
+        "name": "Café"
+      }
+    },
+    {
+      "establishment": {
+        "id": 4,
+        "name": "Kiosk"
+      }
+    },
+    {
+      "establishment": {
+        "id": 291,
+        "name": "Sweet Shop"
+      }
+    },
+    {
+      "establishment": {
+        "id": 20,
+        "name": "Food Court"
+      }
+    },
+    {
+      "establishment": {
+        "id": 18,
+        "name": "Fine Dining"
+      }
+    },
+    {
+      "establishment": {
+        "id": 5,
+        "name": "Lounge"
+      }
+    },
+    {
+      "establishment": {
+        "id": 6,
+        "name": "Pub"
+      }
+    },
+    {
+      "establishment": {
+        "id": 41,
+        "name": "Beverage Shop"
+      }
+    },
+    {
+      "establishment": {
+        "id": 7,
+        "name": "Bar"
+      }
+    },
+    {
+      "establishment": {
+        "id": 8,
+        "name": "Club"
+      }
+    },
+    {
+      "establishment": {
+        "id": 61,
+        "name": "Dhaba"
+      }
+    },
+    {
+      "establishment": {
+        "id": 51,
+        "name": "Butcher Shop"
+      }
+    },
+    {
+      "establishment": {
+        "id": 81,
+        "name": "Food Truck"
+      }
+    },
+    {
+      "establishment": {
+        "id": 295,
+        "name": "Noodle Shop"
+      }
+    }
+  ]
+}
