@@ -13,6 +13,13 @@ var prod_config = require('./config/prod_config');
 //Assign config with prod_config when moving to production and vice-versa
 var config = dev_config;
 
+mongoose.connect(config.mongo.server+':'+config.mongo.server+'/'+config.mongo.database);
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+    console.log('Connected to Database')
+});
+
 // configure app to use bodyParser()
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

@@ -5,6 +5,11 @@
   	"url" : "https://gateway.watsonplatform.net/natural-language-understanding/api",
   	"username" : "708921de-baa9-4029-9df2-19fade244e31",
   	"password":"PIju7DbJ36v6"
+  },
+  "zomato-api-key": "10fe8766cfd3ff73a853be68a43bb428",
+  "mongo":{
+    "server" : "mongodb://192.168.28.141",
+    "post" : 27017,
+    "database":"feedback"
   }
-  "zomato-api-key": "10fe8766cfd3ff73a853be68a43bb428"
 }
