@@ -21,4 +21,9 @@ module.exports = function(app){
         zomato.datapopulate(req,res);
     });
 
+    app.get('/zomato', function(req, res){
+
+        zomato.restaurants(req,res);
+    });
+
 }
