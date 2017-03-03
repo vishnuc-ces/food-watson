@@ -1,4 +1,6 @@
-var server = require('./../server');
+'use strict'
+
+var config = require('./../server');
 var jsonfile = require('jsonfile');
 var Category = require('./../models/category');
 var Cuisine = require('./../models/cuisines');
@@ -7,7 +9,7 @@ var Establishment = require('./../models/establishments');
 var fs = require('fs');
 var request = require('request');
 
-var datapopulate = function(req, res){
+var dataPopulate = function(req, res){
 
     // Zomato Category Data API
     jsonfile.readFile('/home/vishnuc/projects/food-watson/zomato-categories.json', function(err, obj) {
@@ -93,25 +95,35 @@ var datapopulate = function(req, res){
     });
 }
 
+// API to hit zomato server
 var restaurants = function (req, res) {
     var options = {
-        url: 'https://developers.zomato.com/api/v2.1/restaurant?res_id=12',
+        url: config.zomatoURL + '/search',
         headers: {
-            'user-key' : '10fe8766cfd3ff73a853be68a43bb428'
+            'user-key' : config.zomatoKey
+        },
+        qs : {
+            'entity_id' : req.body.entity_id || 0,
+            'entity_type' : req.body.entity_type || '',
+            'q' : req.body.q || '',
+            'cuisines' : req.body.cuisines || 0,
+            'establishment_type' : req.body.establishment_type || 0,
+            'category' : req.body.category || 0
         }
     };
     request.get(options, function (err, resp) {
-        if (err){
-            console.log(err)
+        if (err) {
+
+            console.log(err);
+            res.json(err);
+        } else {
+            
+            res.send(resp.body)
         }
-        res.json(resp.body)
-
     });
-    res.json('okay')
-
 }
 
 module.exports = {
-    datapopulate : datapopulate,
+    dataPopulate : dataPopulate,
     restaurants : restaurants
 };

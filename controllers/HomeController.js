@@ -9,7 +9,7 @@ var NaturalLanguageUnderstandingV1 = require('watson-developer-cloud/natural-lan
 
 // Uses Watson natural language understanding api
 var sample = function (req,res) {
-
+    console.log("server--->",server);
     var nlu = new NaturalLanguageUnderstandingV1({
         username: '708921de-baa9-4029-9df2-19fade244e31',
         password: 'PIju7DbJ36v6',
@@ -42,7 +42,7 @@ var home = function (req,res) {
         password: 'eSolpUew07Wj',
     });
 
-    const params = {
+    var params = {
         language: 'en',
         name: 'my-classifier',
         training_data: fs.createReadStream('/home/vishnuc/projects/food-watson/demo.csv')

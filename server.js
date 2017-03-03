@@ -13,7 +13,7 @@ var prod_config = require('./config/prod_config');
 //Assign config with prod_config when moving to production and vice-versa
 var config = dev_config;
 
-mongoose.connect(config.mongo.server+':'+config.mongo.server+'/'+config.mongo.database);
+mongoose.connect(`${config.mongo.server}:${config.mongo.server}/${config.mongo.database}`);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
@@ -24,11 +24,31 @@ db.once('open', function() {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var routes = require('./config/routes')(app);
+// var routes = require('./config/routes')(app);
 // START THE SERVER
 // =============================================================================
 var server = app.listen(config.port, function () {
   var host = config.server;
   console.log('App listening at : ' + host);
 });
+
+app.get('/test', function(req, res){
+
+	home.sample(req,res);
+});
+
+app.get('/zomatoDataDump', function(req, res){
+
+    zomato.dataPopulate(req,res);
+});
+
+app.post('/zomato', function(req, res){
+
+    zomato.restaurants(req,res);
+});
+
+module.exports = config
+
+var home = require('./controllers/HomeController');
+var zomato = require('./controllers/ZomatoController');
 
