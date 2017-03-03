@@ -11,8 +11,7 @@ var NaturalLanguageUnderstandingV1 = require('watson-developer-cloud/natural-lan
 
 // Uses Watson natural language understanding api
 var sample = function (req,res) {
-
-    console.log(req.body);
+    
     Service.findOneQuery(Cuisine, req.body, function(err, output){
 
         res.send(output);
