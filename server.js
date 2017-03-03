@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
  * 1. development = dev_config
  * 2. production = prod_config
  */
-var dev_config = require('./config/dev_config'); 
+var dev_config = require('./config/dev_config');
 var prod_config = require('./config/prod_config');
 
 //TODO
@@ -42,13 +42,12 @@ app.get('/zomatoDataDump', function(req, res){
     zomato.dataPopulate(req,res);
 });
 
-app.post('/zomato', function(req, res){
+app.post('/zomatoSearch', function(req, res){
 
-    zomato.restaurants(req,res);
+    zomato.zomatoSearch(req,res);
 });
 
-module.exports = config
+module.exports = config;
 
 var home = require('./controllers/HomeController');
 var zomato = require('./controllers/ZomatoController');
-

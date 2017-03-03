@@ -96,7 +96,7 @@ var dataPopulate = function(req, res){
 }
 
 // API to hit zomato server
-var restaurants = function (req, res) {
+var zomatoSearch = function (req, res) {
     var options = {
         url: config.zomatoURL + '/search',
         headers: {
@@ -117,7 +117,7 @@ var restaurants = function (req, res) {
             console.log(err);
             res.json(err);
         } else {
-            
+
             res.send(resp.body)
         }
     });
