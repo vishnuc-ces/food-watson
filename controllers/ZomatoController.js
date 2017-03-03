@@ -125,5 +125,5 @@ var zomatoSearch = function (req, res) {
 
 module.exports = {
     dataPopulate : dataPopulate,
-    restaurants : restaurants
+    zomatoSearch : zomatoSearch
 };
