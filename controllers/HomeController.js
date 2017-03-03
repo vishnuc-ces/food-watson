@@ -4,34 +4,44 @@ var server = require('./../server');
 var fs = require('fs')
 var http = require('http')
 var q = require('q');
+var Service = require('./../services/modelServices')
+var Cuisine = require('./../models/cuisines')
 var NaturalLanguageClassifierV1 = require('watson-developer-cloud/natural-language-classifier/v1');
 var NaturalLanguageUnderstandingV1 = require('watson-developer-cloud/natural-language-understanding/v1.js');
 
 // Uses Watson natural language understanding api
 var sample = function (req,res) {
-    console.log("server--->",server);
-    var nlu = new NaturalLanguageUnderstandingV1({
-        username: '708921de-baa9-4029-9df2-19fade244e31',
-        password: 'PIju7DbJ36v6',
-        version_date: NaturalLanguageUnderstandingV1.VERSION_DATE_2016_01_23
-    });
 
-    nlu.analyze({
-        'html': 'i hate chineese food and love indian grilled chicken.', // Buffer or String
-        'features': {
-            'concepts': {},
-            'keywords': {},
-			'emotion': {},
-			'categories': {},
-			'relations': {},
-			'sentiment': {}
-        }
-    }, function(err, response) {
-        if (err)
-            res.json('error:', err);
-        else
-            res.json(response);
+    console.log(req.body);
+    Service.findOneQuery(Cuisine, req.body, function(err, output){
+
+        res.send(output);
+
+    }, function(err){
+        res.json(err);
     });
+    // var nlu = new NaturalLanguageUnderstandingV1({
+    //     username: '708921de-baa9-4029-9df2-19fade244e31',
+    //     password: 'PIju7DbJ36v6',
+    //     version_date: NaturalLanguageUnderstandingV1.VERSION_DATE_2016_01_23
+    // });
+    //
+    // nlu.analyze({
+    //     'html': 'i hate chineese food and love indian grilled chicken.', // Buffer or String
+    //     'features': {
+    //         'concepts': {},
+    //         'keywords': {},
+		// 	'emotion': {},
+		// 	'categories': {},
+		// 	'relations': {},
+		// 	'sentiment': {}
+    //     }
+    // }, function(err, response) {
+    //     if (err)
+    //         res.json('error:', err);
+    //     else
+    //         res.json(response);
+    // });
 }
 
 

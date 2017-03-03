@@ -32,7 +32,7 @@ var server = app.listen(config.port, function () {
   console.log('App listening at : ' + host);
 });
 
-app.get('/test', function(req, res){
+app.post('/test', function(req, res){
 
 	home.sample(req,res);
 });
