@@ -18,34 +18,34 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
     console.log('Connected to Database');
-});
+  });
 
 // configure app to use bodyParser()
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // var routes = require('./config/routes')(app);
 // START THE SERVER
 // =============================================================================
-var server = app.listen(config.port, function () {
+var server = app.listen(config.port, function() {
   var host = config.server;
   console.log('App listening at : ' + host);
 });
 
-app.post('/test', function(req, res){
+app.post('/test', function(req, res) {
 
-	home.sample(req,res);
+  home.sample(req, res);
 });
 
-app.get('/zomatoDataDump', function(req, res){
+app.get('/zomatoDataDump', function(req, res) {
 
-    zomato.dataPopulate(req,res);
-});
+    zomato.dataPopulate(req, res);
+  });
 
-app.post('/zomatoSearch', function(req, res){
+app.post('/zomatoSearch', function(req, res) {
 
-    zomato.zomatoSearch(req,res);
-});
+    zomato.zomatoSearch(req, res);
+  });
 
 module.exports = config;
 
