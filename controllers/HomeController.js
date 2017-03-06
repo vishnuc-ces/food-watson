@@ -55,7 +55,6 @@ var home = function(req, res) {
         name: 'my-classifier',
         training_data: fs.createReadStream('/home/vishnuc/projects/food-watson/demo.csv')
       };
-    console.log(params['training_data']);
     natural_language_classifier.create(params, function(err, response) {
         if (err) {
           console.log(err);
